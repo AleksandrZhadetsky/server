@@ -23,7 +23,9 @@ jobs:
     - run: echo $PWD
     - run: dir
     - name: Restore dependencies
+      working-directory: ./demoapi
       run: dotnet restore
+    - run: echo $PWD
     - name: Build
       run: dotnet build --no-restore
     - name: Test

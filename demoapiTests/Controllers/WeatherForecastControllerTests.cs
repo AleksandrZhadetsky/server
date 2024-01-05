@@ -5,29 +5,28 @@ namespace demoapi.Controllers.Tests
     [TestClass()]
     public class WeatherForecastControllerTests
     {
-
         [TestMethod()]
-        public void FakeTest()
+        public void GetTest1()
         {
-            Assert.AreEqual(2 + 2, 4);
+            Assert.IsTrue(true);
         }
 
         [TestMethod()]
-        public void FakeTest1()
+        public void GetTest2()
         {
-            Assert.AreEqual(2 + 2, 4);
+            Assert.IsTrue(true);
         }
 
         [TestMethod()]
-        public void FakeTest2()
+        public void GetTest3()
         {
-            Assert.AreEqual(2 + 2, 4);
+            Assert.IsTrue(true);
         }
 
         [TestMethod()]
-        public void FakeTest3()
+        public void GetTest4()
         {
-            Assert.AreEqual(2 + 2, 4);
+            Assert.IsTrue(true);
         }
     }
 }
