@@ -27,6 +27,7 @@ jobs:
       run: dotnet restore
     - run: echo $PWD
     - name: Build
+      working-directory: ./demoapi
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
