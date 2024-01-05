@@ -22,8 +22,6 @@ jobs:
         dotnet-version: 6.0.x
     - run: echo $PWD
     - run: dir
-    - run: cd demoapi
-    - run: echo $PWD
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
