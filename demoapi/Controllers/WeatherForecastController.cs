@@ -25,7 +25,10 @@ namespace demoapi.Controllers
             this._logger = logger;
         }
 
-
+        /// <summary>
+        /// Endpoint for getting the weather forecast fake data.
+        /// </summary>
+        /// <returns> Weather forecast fake data. </returns>
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
